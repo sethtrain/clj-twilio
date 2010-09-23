@@ -1,6 +1,7 @@
-(ns twilio.test.voice
-  (:use [twilio.voice] :reload)
-  (:use [clojure.test]))
+(ns twilio.test.twiml.core
+  (:use [twilio.twiml.core] :reload)
+  (:use [clojure.test]
+        [twilio.twiml.voice]))
 
 (deftest test-single-verb
   (is (= (hangup)

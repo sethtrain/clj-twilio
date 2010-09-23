@@ -11,7 +11,7 @@ Add this to your project.clj :dependencies list:
 TwiML voice response:
     
     (use 'twilio.core)
-    (use 'twilio.voice)
+    (use 'twilio.twiml.voice)
     
     (twiml-response (say "Message"))
     > "<?xml version=\"1.1\" encoding=\"UTF-8\"?><Response><Say>Message</Say></Response>"

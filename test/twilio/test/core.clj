@@ -1,7 +1,7 @@
 (ns twilio.test.core
   (:use [twilio.core] :reload)
   (:use [clojure.test]
-        [twilio.voice :only [say play gather]]))
+        [twilio.twiml.voice :only [say play gather]]))
 
 (deftest test-twilio-voice-response
   (is (= (twiml-response (say "Message"))
