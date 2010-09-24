@@ -5,5 +5,7 @@
   :dev-dependencies [[lein-clojars "0.5.0"]
                      [swank-clojure "1.2.1"]]
   :aot [twilio.core
-        twilio.voice]
+        twilio.twiml.core
+        twilio.twiml.sms
+        twilio.twiml.voice]
   :jar-name "clj-twilio.jar")
