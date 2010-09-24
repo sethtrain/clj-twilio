@@ -4,7 +4,7 @@ Clojure Twilio API
 
 Add this to your project.clj :dependencies list:
 
-    [clj-twilio "0.1.0"]
+    [clj-twilio "0.2.0"]
 
 ## Usage
 
